@@ -1,0 +1,26 @@
+.full-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.fullform{
+    padding: 70px 40px;
+}
+.fullform>form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fullform>form>div{
+    display: flex;
+    justify-content: space-between;
+}
+.fullform>form>button{
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 10px 0;
+
+}
